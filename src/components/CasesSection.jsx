@@ -1,3 +1,5 @@
+import "./CasesSection.css";
+
 function CasesSection() {
   return (
     <section className="cases">

@@ -1,3 +1,5 @@
+import "./instagramSection.css";
+
 function InstagramSection() {
   return (
     <section className="instagram">

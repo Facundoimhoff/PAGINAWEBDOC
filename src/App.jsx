@@ -9,7 +9,6 @@ import LaserSection from "./components/LaserSection";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
 
-import "./App.css";
 
 function App() {
   return (

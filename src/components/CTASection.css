@@ -1,0 +1,48 @@
+.cta {
+  padding: 8rem 2rem;
+
+  background: linear-gradient(
+    135deg,
+    var(--mint),
+    #a8d1ce
+  );
+
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.cta-content h2 {
+  font-size: clamp(2rem, 4vw, 4rem);
+
+  margin-bottom: 1rem;
+
+  color: var(--black);
+}
+
+.cta-content p {
+  margin-bottom: 2rem;
+
+  color: #355350;
+}
+
+.cta-btn {
+  display: inline-block;
+
+  padding: 1rem 2.5rem;
+
+  background: var(--black);
+
+  color: white;
+
+  border-radius: 999px;
+
+  transition: .3s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-4px);
+}

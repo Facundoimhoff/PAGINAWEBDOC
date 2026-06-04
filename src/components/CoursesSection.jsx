@@ -1,3 +1,5 @@
+import "./CoursesSection.css";
+
 function CoursesSection() {
   return (
     <section className="courses">
