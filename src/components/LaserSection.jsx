@@ -29,7 +29,7 @@ function LaserSection() {
           </p>
 
           <a
-            href="https://wa.me/5493564616171"
+            href="https://wa.me/543564616171?text=Hola%20Anabel%2C%20quiero%20informaci%C3%B3n%20sobre%20las%20terapias%20l%C3%A1ser.%20Tengo%20molestias%20en%3A%20"
             target="_blank"
             rel="noreferrer"
             className="laser-btn"

@@ -15,7 +15,7 @@ function CTASection() {
         </p>
 
         <a
-          href="https://wa.me/+54XXXXXXXXXX?text=Hola%20Anabel%2C%20quiero%20sacar%20turno%20para%20una%20consulta%20de%20ortodoncia"
+          href="https://wa.me/543564616171?text=Hola%20Anabel%2C%20quiero%20sacar%20turno%20para%20una%20consulta.%20Mi%20motivo%20es%3A%20"
           target="_blank"
           rel="noreferrer"
           className="cta-btn"
