@@ -27,7 +27,7 @@ function Hero() {
             rel="noreferrer"
             className="primary-btn"
           >
-            Solicitar Turno
+            Consultar por Ortodoncia
           </a>
 
           <a href="#casos" className="secondary-btn">
