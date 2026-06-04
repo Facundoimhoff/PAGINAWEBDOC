@@ -5,7 +5,7 @@ import OrthodonticsSection from "./components/OrthodonticsSection";
 import CasesSection from "./components/CasesSection";
 import CoursesSection from "./components/CoursesSection";
 import InstagramSection from "./components/InstagramSection";
-import FormSection from "./components/FormSection";
+import LaserSection from "./components/LaserSection";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
 
@@ -29,6 +29,10 @@ function App() {
           <OrthodonticsSection />
         </section>
 
+        <section id="laser">
+        <LaserSection />
+        </section>
+
         <section id="casos">
           <CasesSection />
         </section>
@@ -39,10 +43,6 @@ function App() {
 
         <section id="instagram">
           <InstagramSection />
-        </section>
-
-        <section id="formulario">
-          <FormSection />
         </section>
 
         <section id="contacto">

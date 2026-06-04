@@ -1,0 +1,51 @@
+.ortho {
+  padding: 7rem 2rem;
+  background: var(--black);
+  color: white;
+}
+
+.ortho-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.ortho-card {
+  background: #242424;
+
+  padding: 2rem;
+
+  border-radius: 20px;
+
+  transition: 0.3s;
+}
+
+.ortho-card:hover {
+  transform: translateY(-8px);
+}
+
+.featured {
+  border: 2px solid var(--accent);
+}
+
+.featured-badge {
+  display: inline-block;
+
+  background: var(--accent);
+  color: white;
+
+  padding: 0.3rem 0.8rem;
+
+  border-radius: 999px;
+
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .ortho-grid {
+    grid-template-columns: 1fr;
+  }
+}

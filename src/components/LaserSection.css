@@ -1,0 +1,47 @@
+.laser {
+  padding: 7rem 2rem;
+  background: #f8f9f8;
+}
+
+.laser-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.laser-image img {
+  border-radius: 24px;
+}
+
+.laser-content h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin-bottom: 1.5rem;
+}
+
+.laser-content p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.laser-btn {
+  display: inline-block;
+
+  margin-top: 1rem;
+
+  padding: 1rem 2rem;
+
+  background: var(--accent);
+  color: white;
+
+  border-radius: 999px;
+}
+
+@media (max-width: 900px) {
+  .laser-container {
+    grid-template-columns: 1fr;
+  }
+}

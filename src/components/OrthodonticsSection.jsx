@@ -1,3 +1,5 @@
+import "./OrthodonticsSection.css";
+
 function OrthodonticsSection() {
   return (
     <section className="ortho">
