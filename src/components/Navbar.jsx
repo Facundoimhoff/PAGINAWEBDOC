@@ -22,15 +22,6 @@ function Navbar() {
         <li><a href="#instagram">Instagram</a></li>
       </ul>
 
-      <a
-        href="https://wa.me/5493564616171"
-        target="_blank"
-        rel="noreferrer"
-        className="turno-btn desktop"
-      >
-        Solicitar Turno
-      </a>
-
       <button
         className="hamburger"
         onClick={() => setMenuOpen(true)}
@@ -57,15 +48,6 @@ function Navbar() {
         <a href="#cursos" onClick={closeMenu}>Cursos</a>
         <a href="#instagram" onClick={closeMenu}>Instagram</a>
 
-        <a
-          href="https://wa.me/5493564616171"
-          target="_blank"
-          rel="noreferrer"
-          className="turno-btn mobile-turno"
-          onClick={closeMenu}
-        >
-          Solicitar Turno
-        </a>
       </div>
 
       {menuOpen && <div className="overlay" onClick={closeMenu} />}
