@@ -96,3 +96,71 @@
 .turno-btn::after {
   display: none;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+
+    background: none;
+    border: none;
+
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+
+    position: fixed;
+
+    top: 0;
+    right: -100%;
+
+    width: 280px;
+    height: 100vh;
+
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+
+    padding: 5rem 2rem;
+
+    transition: .4s ease;
+
+    box-shadow: -10px 0 30px rgba(0,0,0,.15);
+  }
+
+  .mobile-menu.active {
+    right: 0;
+  }
+
+  .close-btn {
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+
+    background: none;
+    border: none;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+  }
+
+  .mobile-menu a {
+    color: var(--black);
+    font-size: 1.1rem;
+  }
+}
