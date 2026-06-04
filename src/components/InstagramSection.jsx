@@ -1,4 +1,4 @@
-import "./instagramSection.css";
+import "./InstagramSection.css";
 
 function InstagramSection() {
   return (
