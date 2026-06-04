@@ -26,7 +26,7 @@ function InstagramSection() {
           </p>
 
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/anabel.sanchezchazarreta/"
             target="_blank"
             rel="noreferrer"
             className="instagram-btn"
