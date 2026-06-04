@@ -22,7 +22,7 @@ function Hero() {
 
         <div className="hero-buttons">
           <a
-            href="https://wa.me/5493564616171"
+            href="https://wa.me/543564616171?text=Hola%20Anabel%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20tratamiento%20de%20ortodoncia.%20Mi%20motivo%20de%20consulta%20es%3A%20"
             target="_blank"
             rel="noreferrer"
             className="primary-btn"
