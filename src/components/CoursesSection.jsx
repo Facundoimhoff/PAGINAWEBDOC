@@ -19,37 +19,37 @@ function CoursesSection() {
       <div className="courses-grid">
 
         <div className="course-card">
-          <h3>Ortodoncia Clínica</h3>
+          <h3>Cursos para odontólogos</h3>
 
           <p>
-            Aplicación práctica y resolución de casos reales.
+            Temas de ortodoncia, estética dental y terapias láser.
           </p>
 
-          <a href="#">
+          <a href="https://api.whatsapp.com/send?phone=543564616171&text=Hola%20%F0%9F%91%8B%20quiero%20info%20de%20cursos%20para%20odont%C3%B3logos">
             Ver Curso
           </a>
         </div>
 
         <div className="course-card">
-          <h3>Laserterapia</h3>
+          <h3>EL consultorio de tus sueños</h3>
 
           <p>
-            Uso clínico del láser en odontología moderna.
+            Diseño, equipamiento y gestión para un consultorio moderno.
           </p>
 
-          <a href="#">
+          <a href="https://www.canva.com/design/DAFz5ryJR4A/oDLtXX4CCiL7ZY6w-hkI6Q/edit">
             Ver Curso
           </a>
         </div>
 
         <div className="course-card">
-          <h3>Capacitaciones Especiales</h3>
+          <h3>Curso Blanqueamiento Dental</h3>
 
           <p>
-            Formación continua para profesionales.
+            Técnicas avanzadas para resultados efectivos y seguros.
           </p>
 
-          <a href="#">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDJuoYlUErsW1OSqHpnrRQsMrG4mz6esuxX4cg6T2B4Rd-ng/viewform">
             Ver Curso
           </a>
         </div>

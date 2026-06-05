@@ -19,7 +19,7 @@ function InstagramSection() {
       <div className="instagram-content">
 
         <div className="instagram-card">
-          <h3>@anabelsanchezortodoncia</h3>
+          <h3>@anabel.sanchezchazarreta</h3>
 
           <p>
             Descubrí más contenido y resultados reales.
