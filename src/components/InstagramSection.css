@@ -24,13 +24,15 @@
 
   object-fit: contain;
 
-  margin-bottom: 25px;
+  margin: 0 auto 25px;
 
   transition: .3s;
+  display: block;
 }
 
 .instagram-logo:hover {
   transform: scale(1.08);
+
 }
 
 .instagram-card h2 {
