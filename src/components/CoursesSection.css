@@ -4,7 +4,10 @@
 }
 
 /* Título, subtítulo y textos fuera de los cards */
-.courses .section-tag,
+.courses .section-tag {
+  color: #7AAFA9;
+}
+
 .courses h2,
 .courses > p,
 .courses .section-header p {
@@ -55,3 +58,4 @@
     grid-template-columns: 1fr;
   }
 }
+
