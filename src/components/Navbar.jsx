@@ -9,7 +9,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        Anabel Sánchez
+        <a href="#inicio" className="logo">
+            <img
+              src="/logodoc.jpg"
+              alt="Dra. Anabel Sánchez"
+              />
+        </a>
       </div>
 
       <ul className="nav-links desktop">
