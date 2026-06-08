@@ -1,6 +1,14 @@
 .courses {
   padding: 7rem 2rem;
-  background: #f8f9f8;
+  background: #191919;
+}
+
+/* Título, subtítulo y textos fuera de los cards */
+.courses .section-tag,
+.courses h2,
+.courses > p,
+.courses .section-header p {
+  color: #fafaf8;
 }
 
 .courses-grid {
