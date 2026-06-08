@@ -4,10 +4,10 @@ import "./CasesSection.css";
 function CasesSection() {
   const casos = [
     {
-      titulo: "Alineación dental",
+      titulo: "Carillas dentales",
       imagenes: [
-        { src: "/caso1-1.jpg", etiqueta: "Antes" },
-        { src: "/caso1-2.jpg", etiqueta: "Después" },
+        { src: "/carillaantes.png", etiqueta: "Antes" },
+        { src: "/carilladesp.png", etiqueta: "Después" },
       ],
     },
     {
