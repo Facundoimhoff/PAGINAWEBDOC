@@ -8,7 +8,6 @@ function CasesSection() {
       imagenes: [
         { src: "/caso1-1.jpg", etiqueta: "Antes" },
         { src: "/caso1-2.jpg", etiqueta: "Después" },
-        { src: "/caso1-3.jpg", etiqueta: "Resultado" },
       ],
     },
     {
@@ -16,7 +15,6 @@ function CasesSection() {
       imagenes: [
         { src: "/caso2-1.jpg", etiqueta: "Antes" },
         { src: "/caso2-2.jpg", etiqueta: "Después" },
-        { src: "/caso2-3.jpg", etiqueta: "Resultado" },
       ],
     },
     {
@@ -24,7 +22,6 @@ function CasesSection() {
       imagenes: [
         { src: "/caso3-1.jpg", etiqueta: "Antes" },
         { src: "/caso3-2.jpg", etiqueta: "Después" },
-        { src: "/caso3-3.jpg", etiqueta: "Resultado" },
       ],
     },
   ];
