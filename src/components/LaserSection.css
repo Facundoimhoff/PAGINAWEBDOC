@@ -1,47 +1,78 @@
-.laser {
-  padding: 7rem 2rem;
-  background: #f8f9f8;
-}
-
-.laser-container {
-  max-width: 1200px;
-  margin: auto;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  align-items: center;
+.laser-image {
+  position: relative;
 }
 
 .laser-image img {
+  width: 100%;
+  height: 500px;
+
+  object-fit: cover;
+
   border-radius: 24px;
+
+  display: block;
 }
 
-.laser-content h2 {
-  font-size: clamp(2rem, 4vw, 3.5rem);
-  margin-bottom: 1.5rem;
-}
+.laser-arrow {
+  position: absolute;
+  top: 50%;
 
-.laser-content p {
-  margin-bottom: 1rem;
-  line-height: 1.8;
-}
+  transform: translateY(-50%);
 
-.laser-btn {
-  display: inline-block;
+  width: 50px;
+  height: 50px;
 
-  margin-top: 1rem;
+  border: none;
+  border-radius: 50%;
 
-  padding: 1rem 2rem;
+  background: rgba(122, 175, 169, 0.95);
 
-  background: var(--accent);
   color: white;
 
-  border-radius: 999px;
+  font-size: 2rem;
+  font-weight: 300;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s ease;
+
+  z-index: 10;
 }
 
-@media (max-width: 900px) {
-  .laser-container {
-    grid-template-columns: 1fr;
+.laser-arrow:hover {
+  transform: translateY(-50%) scale(1.08);
+}
+
+.laser-arrow.left {
+  left: 20px;
+}
+
+.laser-arrow.right {
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .laser-image img {
+    height: 320px;
+  }
+
+  .laser-arrow {
+    width: 42px;
+    height: 42px;
+
+    font-size: 1.7rem;
+  }
+
+  .laser-arrow.left {
+    left: 10px;
+  }
+
+  .laser-arrow.right {
+    right: 10px;
   }
 }

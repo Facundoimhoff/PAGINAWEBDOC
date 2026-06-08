@@ -1,8 +1,28 @@
+import { useState } from "react";
 import "./LaserSection.css";
 
 function LaserSection() {
+
+  const imagenes = [
+    "/laser1.jpeg",
+    "/laser2.jpg",
+    "/laser3.jpg"
+  ];
+
+  const [imagenActual, setImagenActual] = useState(0);
+
+  const siguiente = () => {
+    setImagenActual((prev) => (prev + 1) % imagenes.length);
+  };
+
+  const anterior = () => {
+    setImagenActual(
+      (prev) => (prev - 1 + imagenes.length) % imagenes.length
+    );
+  };
+
   return (
-    <section className="laser">
+    <section className="laser" id="laser">
 
       <div className="laser-container">
 
@@ -40,10 +60,28 @@ function LaserSection() {
         </div>
 
         <div className="laser-image">
+
+          <button
+            className="laser-arrow left"
+            onClick={anterior}
+            type="button"
+          >
+            ‹
+          </button>
+
           <img
-            src="/laser.jpg"
+            src={imagenes[imagenActual]}
             alt="Laserterapia odontológica"
           />
+
+          <button
+            className="laser-arrow right"
+            onClick={siguiente}
+            type="button"
+          >
+            ›
+          </button>
+
         </div>
 
       </div>
