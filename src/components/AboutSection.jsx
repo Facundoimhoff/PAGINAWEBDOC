@@ -7,7 +7,7 @@ function AboutSection() {
 
         <div className="about-image">
           <img
-            src="/anabel.jpg"
+            src="/doctora.jpg"
             alt="Dra. Anabel Sánchez"
           />
         </div>
