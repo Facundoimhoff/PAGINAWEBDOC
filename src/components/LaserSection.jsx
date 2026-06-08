@@ -4,7 +4,7 @@ import "./LaserSection.css";
 function LaserSection() {
 
   const imagenes = [
-    "/laser1.jpeg",
+    "/laser1.jpg",
     "/laser2.jpg",
     "/laser3.jpg"
   ];
@@ -12,7 +12,9 @@ function LaserSection() {
   const [imagenActual, setImagenActual] = useState(0);
 
   const siguiente = () => {
-    setImagenActual((prev) => (prev + 1) % imagenes.length);
+    setImagenActual(
+      (prev) => (prev + 1) % imagenes.length
+    );
   };
 
   const anterior = () => {
