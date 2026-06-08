@@ -11,10 +11,10 @@ function CasesSection() {
       ],
     },
     {
-      titulo: "Corrección de mordida",
+      titulo: "Ortodoncia",
       imagenes: [
-        { src: "/caso2-1.jpg", etiqueta: "Antes" },
-        { src: "/caso2-2.jpg", etiqueta: "Después" },
+        { src: "/ortodantes.jpeg", etiqueta: "Antes" },
+        { src: "/ortoddsp.jpeg", etiqueta: "Después" },
       ],
     },
     {
