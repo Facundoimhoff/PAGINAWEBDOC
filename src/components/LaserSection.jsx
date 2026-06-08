@@ -2,34 +2,26 @@ import { useState } from "react";
 import "./LaserSection.css";
 
 function LaserSection() {
-
   const imagenes = [
     "/laser1.jpg",
     "/laser2.jpg",
-    "/laser3.jpg"
+    "/laser3.jpg",
   ];
 
   const [imagenActual, setImagenActual] = useState(0);
 
   const siguiente = () => {
-    setImagenActual(
-      (prev) => (prev + 1) % imagenes.length
-    );
+    setImagenActual((prev) => (prev + 1) % imagenes.length);
   };
 
   const anterior = () => {
-    setImagenActual(
-      (prev) => (prev - 1 + imagenes.length) % imagenes.length
-    );
+    setImagenActual((prev) => (prev - 1 + imagenes.length) % imagenes.length);
   };
 
   return (
     <section className="laser" id="laser">
-
       <div className="laser-container">
-
         <div className="laser-content">
-
           <span className="section-tag">
             Tecnología Láser
           </span>
@@ -58,36 +50,33 @@ function LaserSection() {
           >
             Consultar por Láser
           </a>
-
         </div>
 
         <div className="laser-image">
-
           <button
             className="laser-arrow left"
             onClick={anterior}
             type="button"
+            aria-label="Imagen anterior"
           >
             ‹
           </button>
 
           <img
             src={imagenes[imagenActual]}
-            alt="Laserterapia odontológica"
+            alt={`Laserterapia odontológica ${imagenActual + 1}`}
           />
 
           <button
             className="laser-arrow right"
             onClick={siguiente}
             type="button"
+            aria-label="Imagen siguiente"
           >
             ›
           </button>
-
         </div>
-
       </div>
-
     </section>
   );
 }
